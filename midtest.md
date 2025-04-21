@@ -18,7 +18,7 @@ int main() {
 }
 ```
 # 2번
-```
+```cpp
 #include<iostream>
 int Add(int a, int b) {
 	return a + b;
@@ -32,7 +32,7 @@ int main() {
 }
 ```
 # 3번
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Shape {
@@ -65,7 +65,7 @@ int main() {
 }
 ```
 # 4번
-```
+```cpp
 #include<iostream>
 template<typename T>
 void swapValuse(T& a, T& b) {
@@ -82,7 +82,7 @@ int main() {
 ```
 
 # 5번
-```
+```cpp
 #include<iostream>
 #include<fstream>
 int main() {
@@ -105,7 +105,7 @@ int main() {
 }
 ```
 # 6번
-```
+```cpp
 #include<iostream>
 #include<vector>
 int main() {
@@ -120,7 +120,7 @@ int main() {
 	}();
 }
 ```
-```
+```cpp
 #include<iostream>
 int main() {
 	auto fn  = []() {return 11 + 22;};
